@@ -15,4 +15,10 @@ List packages
 py -m pip list [options]
 ```
 
-:trident: Added `json` formatting
+# Revisions
+
+| Date        |   Description    |   Notes |
+|:------------- |:-------------|:-------------|
+| 01/05/2022 | Added `json` formatting | formatting is colorized in terminal, not in console |
+
+
