@@ -14,3 +14,5 @@ List packages
 ```
 py -m pip list [options]
 ```
+
+:trident: Added `json` formatting
