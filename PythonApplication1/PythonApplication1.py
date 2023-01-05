@@ -19,6 +19,7 @@
 from ast import Import
 from datetime import date
 from decimal import Decimal
+from fileinput import filename
 import os
 clear = lambda: os.system('cls')
 clear()
@@ -114,7 +115,7 @@ with open("LinesFile.txt") as file_in:
     
 # Karen start work on working with SqlLite - works but is slow. 
 # TODO work on EF Core 7
-# exec(open('Classes\sqlalchemy1.py').read())
+#exec(open('Classes\sqlalchemy1.py').read())
 
 #
 # Calling C# standard methods and custom code by Karen Payne
@@ -169,5 +170,14 @@ print(intValue)
 #
 
 
+
+#print (os.getcwd())
+
+folder = os.getcwd()
+fileName = os.path.join( os.getcwd(), "\Classes\json1.py" )
+#print(fileName)
+print(folder + "\Classes\json1.py")
+
+exec(open(folder + "\Classes\json1.py").read())
 
 input("Press ENTER to leave")
