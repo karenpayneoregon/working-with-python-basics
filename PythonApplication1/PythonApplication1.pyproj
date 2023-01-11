@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>169eb397-0c57-400e-8ac9-2f7fe4ed2549</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>module1.py</StartupFile>
     <SearchPath>Classes</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -31,6 +31,9 @@
     <Compile Include="Classes\sqlalchemy_example.py" />
     <Compile Include="Learning\BasicStatements.py" />
     <Compile Include="module1.py" />
+    <Compile Include="module2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApplication1.py" />
     <Compile Include="Models\TaxpayerClass.py">
       <SubType>Code</SubType>
