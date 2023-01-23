@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication2", "PythonApplication2\PythonApplication2.pyproj", "{50ACEDC6-76AD-4073-A205-DC4A44A4E849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,8 @@ Global
 		{2DFBD02E-67C1-4251-B36B-040762D27637}.Release|Any CPU.Build.0 = Release|Any CPU
 		{169EB397-0C57-400E-8AC9-2F7FE4ED2549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{169EB397-0C57-400E-8AC9-2F7FE4ED2549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50ACEDC6-76AD-4073-A205-DC4A44A4E849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50ACEDC6-76AD-4073-A205-DC4A44A4E849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2DFBD02E-67C1-4251-B36B-040762D27637} = {AD120DA3-E918-4DA5-A769-19210D773568}
 		{169EB397-0C57-400E-8AC9-2F7FE4ED2549} = {AD923EAC-724A-47EF-9D3D-5372CE235FDE}
+		{50ACEDC6-76AD-4073-A205-DC4A44A4E849} = {AD120DA3-E918-4DA5-A769-19210D773568}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E9B6BBB-CA1A-4767-BEF3-F3E4CCF7E4CF}

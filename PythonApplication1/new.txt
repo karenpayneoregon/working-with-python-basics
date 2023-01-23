@@ -1,0 +1,1 @@
+[{"book": {"Id": 1, "Title": "Learn EF Core", "Price": 19.0}}, {"book": {"Id": 2, "Title": "C# Basics", "Price": 18.0}}]

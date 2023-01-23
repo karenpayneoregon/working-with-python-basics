@@ -26,6 +26,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Classes\json1.py" />
+    <Compile Include="Classes\PythonApplication2.py" />
     <Compile Include="Models\PersonClass.py" />
     <Compile Include="Classes\sqlalchemy1.py" />
     <Compile Include="Classes\sqlalchemy_example.py" />
